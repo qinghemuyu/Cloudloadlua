@@ -2,8 +2,8 @@ local text="1";--设置加载验证密码/ set  password
 local name=nil;
 local pdzt = false;
 local pdzt1 = true;
-local url="https://qinemax.coding.net/p/coding-code-guide/d/coding-code-guide/git/raw/master/V5-PAT-test2.lua?download=false"
---https://qinemax.coding.net/p/coding-code-guide/d/coding-code-guide/git/raw/master/v5-load.lua?download=false
+local url=""--这里放lua的url链接例如github的Raw地址
+
 local buttonload = gui.Window("load", "Cloudload", 100, 200, 250, 280)
 local pwdass = gui.Editbox( buttonload, "menu.pwd", "请输入加载密码/password" )
 local pwdyanz = gui.Button( buttonload, "load", function() 
