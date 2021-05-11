@@ -2,7 +2,7 @@ local text="1";--设置加载验证密码/ set  password
 local name=nil;
 local pdzt = false;
 local pdzt1 = true;
-local url=""--这里放lua的url链接例如github的Raw地址
+local url="https://raw.githubusercontent.com/qinghemuyu/Cloudloadlua/main/text.lua"--这里放lua的url链接例如github的Raw地址/ lua'https'url
 
 local buttonload = gui.Window("load", "Cloudload", 100, 200, 250, 280)
 local pwdass = gui.Editbox( buttonload, "menu.pwd", "请输入加载密码/password" )
